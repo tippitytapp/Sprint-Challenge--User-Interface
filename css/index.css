@@ -159,6 +159,12 @@ header nav{
     color:black;
 }
 
+.headerNav a:hover{
+    text-decoration:underline;
+    font-size:20px;
+    text-transform:uppercase;
+}
+
 #box1{
 background:teal;
 }
@@ -228,8 +234,45 @@ button{
     padding-right:5%;
 }
 
+button:hover{
+    border-radius:5px;
+    border-color:white;
+    background-color:black;
+    color:white;
+    padding-left:5%;
+    padding-right:5%;
+}
 .letsWorkTogether{
     padding-left:3%;
     padding-bottom:5%;
     padding-top:3%;
+}
+
+footer nav a:hover{
+    /* background-color:white;
+    color:black; */
+    font-size:20px;
+    text-transform:uppercase;
+    text-decoration:underline;
+
+}
+
+h2:hover{
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+.indProducts{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:5%;
+    padding-left:5%;
+}
+.indProducts div{
+    border:2px dotted black;
+    width:30%;
+    margin:1%;
+    text-align:center;
+    
 }
