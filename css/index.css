@@ -219,3 +219,17 @@ background:teal;
     margin:20px;
     padding-bottom:20px;
 }
+
+button{
+    border-radius:5px;
+    border-color:black;
+    background-color:white;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.letsWorkTogether{
+    padding-left:3%;
+    padding-bottom:5%;
+    padding-top:3%;
+}
