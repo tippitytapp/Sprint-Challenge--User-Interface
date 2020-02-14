@@ -203,7 +203,19 @@ background:teal;
     width:100%
 }
 
-.aboutSection h2, p{
+.aboutSection h2, .aboutPara{
     padding-left:15px;
 }
 
+.indSections{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.indSections div{
+    border-bottom:2px dotted black;
+    width:45%;
+    margin:20px;
+    padding-bottom:20px;
+}
