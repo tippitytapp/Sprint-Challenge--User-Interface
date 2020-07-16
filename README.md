@@ -34,22 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+using descriptive html, so that anyone who reads your code, can easily identify your elements, and what your part of your project that particular element is, or what it does. i.e. <div class="aboutMeSection"></div>
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+typically you can't have two block elments on the same line making it more column-ous, inline you can. Inline margin, border, padding only pushes other elements away horizontally, where as block pushes things away both vertically and horizontally,.
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+the align-items:center works on the cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+git is an invaluable tool to a team of developers, because 1)it allows mulitiple users to work on the same piece of code at one time, and allows the changes to be merged after the fact. It also allows you version control so if you were to break your code, so WCS you have something to revert back to.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x ] Create a forked copy of this project.
+- [x ] Add your project manager as collaborator on Github.
+- [x ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  

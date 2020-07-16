@@ -83,6 +83,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 20px;
 }
 
 .middle-content {
@@ -144,3 +145,147 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* MY CSS STYLING IS BELOW THIS LINE */
+header nav{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    padding:20px 2%;
+}
+.headerNav a{
+    text-decoration:none;
+    color:black;
+}
+
+.headerNav a:hover{
+    text-decoration:underline;
+    font-size:20px;
+    text-transform:uppercase;
+}
+
+#box1{
+background:teal;
+}
+#box2{
+    background:gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background:coral;
+}
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink;
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
+}
+
+
+/* specific to about CSS */
+
+.aboutSection{
+    border-bottom:2px solid black;
+    margin-bottom:20px;
+    padding-right:20px;
+    padding-left:5px;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:100%
+}
+
+.aboutSection h2, .aboutPara{
+    padding-left:15px;
+}
+
+.indSections{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.indSections div{
+    border-bottom:2px dotted black;
+    width:45%;
+    margin:20px;
+    padding-bottom:20px;
+}
+
+button{
+    border-radius:5px;
+    border-color:black;
+    background-color:white;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+button:hover{
+    border-radius:5px;
+    border-color:white;
+    background-color:black;
+    color:white;
+    padding-left:5%;
+    padding-right:5%;
+}
+.letsWorkTogether{
+    padding-left:3%;
+    padding-bottom:5%;
+    padding-top:3%;
+}
+
+footer nav a:hover{
+    /* background-color:white;
+    color:black; */
+    font-size:20px;
+    text-transform:uppercase;
+    text-decoration:underline;
+    animation-name: example;
+    animation-duration: 10s;
+
+}
+
+h2:hover{
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+.indProducts{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:5%;
+    padding-left:5%;
+}
+.indProducts div{
+    border:2px dotted black;
+    width:30%;
+    margin:1%;
+    text-align:center;
+    
+}@keyframes example {
+    0%   {background-color: white;}
+    10%  {background-color: black;}
+    20%  {background-color: white;}
+    30% {background-color: black;}
+    40%  {background-color: white;}
+    50% {background-color: black;}
+    60%  {background-color: white;}
+    70% {background-color: black;}
+    80% {background-color: white;}
+    90% {background-color: black;}
+    100% {background-color: white;}
